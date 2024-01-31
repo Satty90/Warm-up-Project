@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 60px;
+}
+
+.main-nav {
+    background-color: white;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-nav ul, .secondary-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    padding: 10px 15px;
+}
+
+.main-nav ul li a {
+    color: gray;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+    color: red;
+}
+
+.search-wrapper {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 10px;
+    flex: 1px;
+    padding: 10px 15px;
+}
+
+.search-button-shadow {
+    border: 0;
+    box-shadow: 0 0 10px lightgrey;
+}
+
+.search-icon {
+    margin-right: 10px;
+}
+
+.search-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.search-text-title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.search-text-sub-title {
+    font-size: 12px;
+}
+
+.search-filter-button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondary-nav ul {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.secondary-nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+
+.advert-section article {
+    margin-bottom: 15px;
+}
+
+.advert-section article img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.advert-section article span {
+    display: block;
+    font-size: 12px;
+    color: black;
+}
+
+.advert-section article span:first-child {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.advert-section article span:nth-child(2) {
+    color: gray;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
