@@ -99,6 +99,11 @@ body {
     font-size: 12px;
 }
 
+.advert-section {
+    display: flex;
+    flex-direction: column;
+}
+
 .advert-section article {
     margin-bottom: 15px;
 }
@@ -125,4 +130,14 @@ body {
     color: gray;
     font-size: 10px;
     margin-bottom: 10px;
+}
+
+@media screen and (min-width: 701px) {
+    .advert-section {
+        flex-direction: row;
+    }
+
+    .advert-section article {
+        margin: 10px;
+    }
 }
